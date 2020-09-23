@@ -21,9 +21,9 @@ import bisq.asset.AbstractAssetTest;
 
 import org.junit.Test;
 
-public class BitcoinTest extends AbstractAssetTest {
+public class UnifyTest extends AbstractAssetTest {
 
-    public BitcoinTest() {
+    public UnifyTest() {
         super(new Bitcoin.Mainnet());
     }
 
