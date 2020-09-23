@@ -24,15 +24,15 @@ import org.junit.Test;
 public class UnifyTest extends AbstractAssetTest {
 
     public UnifyTest() {
-        super(new Bitcoin.Mainnet());
+        super(new Unify.Mainnet());
     }
 
     @Test
     public void testValidAddresses() {
-        assertValidAddress("17VZNX1SN5NtKa8UQFxwQbFeFc3iqRYhem");
-        assertValidAddress("3EktnHQD7RiAE6uzMj2ZifT9YgRrkSgzQX");
-        assertValidAddress("1111111111111111111114oLvT2");
-        assertValidAddress("1BitcoinEaterAddressDontSendf59kuE");
+        assertValidAddress("UdBPZ2zHpB2Ut3RbxC6dtvtWyczbtSpDTx");
+        assertValidAddress("UTSviz3KJKeY6yvQWscrT5DoNWQhm2Vsur");
+        assertValidAddress("URMrjFwjkhNUW23ydWmiWRuEWjx6fEiUHz");
+        assertValidAddress("UjCT1QoZqN2BRqEG7QdcZcGKuyZDtojjPn");
     }
 
     @Test
